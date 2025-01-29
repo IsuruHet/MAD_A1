@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- drawable/form_log_in.xml -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:width="320dp"
+    android:height="322dp"
+    android:viewportWidth="320"
+    android:viewportHeight="322"
+    tools:ignore="VectorRaster">
+    <group>
+        <clip-path
+            android:pathData="M0 0H320V322H0V0Z"
+            />
+        <path
+            android:pathData="M0 0V322H320V0"
+            android:fillColor="#FFFFFF"
+            />
+        <path
+            android:pathData="M0 0H320V322H0V0Z"
+            android:strokeWidth="2"
+            android:strokeColor="#D9D9D9"
+            />
+    </group>
+</vector>
