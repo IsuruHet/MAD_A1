@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lab_lecture"
+        android:layout_width="289dp"
+        android:layout_height="87dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="197dp"
+        android:text="@string/lab_lecture"
+        android:textAppearance="@style/lab_lecture"
+        android:gravity="center_horizontal|top"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

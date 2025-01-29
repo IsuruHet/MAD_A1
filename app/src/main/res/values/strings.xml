@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MAD_A1</string>
+    <string name="lab_lecture">LAB &amp; LECTURE HALL RESERVATION \nSYSTEM</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="todo">TODO</string>
+</resources>
