@@ -11,7 +11,7 @@
         android:layout_height="52dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="40dp"
         android:gravity="center_horizontal|top"
         android:text="@string/login"
         android:textAllCaps="true"
@@ -28,7 +28,7 @@
         android:layout_height="322dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginBottom="168dp"
+        android:layout_marginBottom="188dp"
         android:background="@drawable/form_login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -70,7 +70,7 @@
             android:translationY="-1.52sp" />
 
         <EditText
-            android:id="@+id/userID"
+            android:id="@+id/password"
             android:layout_width="280dp"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -79,12 +79,12 @@
             android:layout_marginStart="19dp"
             android:layout_marginEnd="21dp"
             android:layout_marginBottom="129dp"
-            android:autofillHints="userID"
-            android:inputType=""
+            android:autofillHints="password"
+            android:inputType="textPassword"
             tools:ignore="LabelFor" />
 
         <EditText
-            android:id="@+id/password"
+            android:id="@+id/userID"
             android:layout_width="280dp"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -93,9 +93,11 @@
             android:layout_marginStart="14dp"
             android:layout_marginEnd="26dp"
             android:layout_marginBottom="228dp"
-            android:autofillHints="password"
-            android:inputType=""
-            tools:ignore="LabelFor,TextFields"/>
+            android:autofillHints="userID"
+            android:inputType="text"
+            android:textAllCaps="true"
+            tools:ignore="LabelFor,TextFields" />
+
 
         <Button
             android:id="@+id/signInBtn"
