@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <RelativeLayout
+        android:id="@+id/rectangle_3"
+        android:layout_width="324dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/rectangle_3"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/line_2"
+            android:layout_width="1dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="223dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/line_1"
+            tools:layout_editor_absoluteX="178dp"
+            tools:layout_editor_absoluteY="87dp" />
+
+        <TextView
+            android:id="@+id/moduleDetails"
+            android:layout_width="205dp"
+            android:layout_height="93dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="33dp"
+            android:gravity="top"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/operating_s"
+            android:textAppearance="@style/operating_s"
+            android:translationY="-1.92sp" />
+
+        <Button
+            android:id="@+id/checkBtn"
+            android:layout_width="105dp"
+            android:layout_height="18dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="161dp"
+            android:layout_marginTop="116dp"
+            android:layout_marginEnd="58dp"
+            android:background="@drawable/check_button"
+            android:text="Check"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/month"
+            android:layout_width="69dp"
+            android:layout_height="26dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="21dp"
+            android:gravity="right|top"
+            android:lineSpacingExtra="3sp"
+            android:text="June"
+            android:textAppearance="@style/label"
+            android:textStyle="bold"
+            android:translationY="-1.32sp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginBottom="41dp"
+            android:gravity="right|top"
+            android:lineSpacingExtra="-17sp"
+            android:text="10"
+            android:textAppearance="@style/dashboard"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/year"
+            android:layout_width="69dp"
+            android:layout_height="26dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="105dp"
+            android:gravity="right|top"
+            android:lineSpacingExtra="3sp"
+            android:text="2025"
+            android:textAppearance="@style/label"
+            android:textStyle="bold"
+            android:translationY="-1.32sp" />
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "302439946461",
+    "project_id": "mada1-95ef3",
+    "storage_bucket": "mada1-95ef3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302439946461:android:c8f39ebdbb07788ad1e334",
+        "android_client_info": {
+          "package_name": "com.isuru.hettiarachchi.mad_a1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHB1HigNTcKZk4gZfdXnLmER7J8BBbrzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

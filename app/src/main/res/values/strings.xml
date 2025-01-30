@@ -9,4 +9,6 @@
     <string name="todo">TODO</string>
     <string name="remember_me">Remember Me</string>
     <string name="sign_in">Sign In</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="operating_s">Operating System\n 8:00 AM - 10:00 AM\n SF 01\n 1st Year\n</string>
 </resources>
