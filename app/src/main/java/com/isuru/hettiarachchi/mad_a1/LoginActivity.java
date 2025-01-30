@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity {
         Button loginButton = findViewById(R.id.signInBtn);
 
         loginButton.setOnClickListener(v -> {
-            String userID = userIDEditText.getText().toString().trim();
+            String userID = userIDEditText.getText().toString().toUpperCase().trim();
             String password = passwordEditText.getText().toString().trim();
 
             if (!userID.isEmpty() && !password.isEmpty()) {
